@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "changeToNext",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "currentLight",
+				"outputs": [
+					{
+						"internalType": "enum TrafficLight.Light",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCurrentStatus",
+				"outputs": [
+					{
+						"internalType": "enum TrafficLight.Light",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TrafficLight.sol": "TrafficLight"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/TrafficLight.sol": {
+			"keccak256": "0x8a5f062f261aa26179fe2d42f65e98e22a79b2ec5e3bb5cbad995b55bcc6f3aa",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9dc4754f7f722d9a19daa966ea0463c76a7fedc52067c3b8a963410220cefd00",
+				"dweb:/ipfs/QmRrDhiraEABU96qtAaQqQdM3EcANFC3tCrjjTX4nnxLpk"
+			]
+		}
+	},
+	"version": 1
+}

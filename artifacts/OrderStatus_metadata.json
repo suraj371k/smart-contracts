@@ -1,0 +1,128 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_orderId",
+						"type": "uint256"
+					}
+				],
+				"name": "createOrder",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_orderId",
+						"type": "uint256"
+					}
+				],
+				"name": "getCurrentStatus",
+				"outputs": [
+					{
+						"internalType": "enum OrderStatus.Status",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "orderCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "orders",
+				"outputs": [
+					{
+						"internalType": "enum OrderStatus.Status",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_orderId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum OrderStatus.Status",
+						"name": "_newStatus",
+						"type": "uint8"
+					}
+				],
+				"name": "updateStatus",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/OrderStatus.sol": "OrderStatus"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/OrderStatus.sol": {
+			"keccak256": "0x4e5cd826634f89592e0f79af833b2f9241680b0f2cfd940aaff01b497fa58625",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://59ecabecb0acb2278b552ffdbd6f04612b8fb8dcd1ea141dfcfa7078b18beff5",
+				"dweb:/ipfs/QmNPCHLoc67xX98NWd115uFBqSrvoDQ9AxThdZptveLjQB"
+			]
+		}
+	},
+	"version": 1
+}
